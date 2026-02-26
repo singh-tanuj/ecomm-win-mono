@@ -14,6 +14,8 @@ namespace Ecommerce.Services.Checkout;
 /// 2) cartId/userId/totalCents flow (used by CheckoutOrchestrator)
 /// This class supports both via overloads.
 /// </summary>
+/// <summary>
+/// </summary>
 public sealed class CheckoutService
 {
     private readonly PricingEngine _pricingEngine;
