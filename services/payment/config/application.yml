@@ -1,0 +1,3 @@
+payment:
+  retry:
+    baseDelayMs: 300
