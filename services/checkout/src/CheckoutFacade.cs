@@ -7,7 +7,7 @@ namespace Ecommerce.Services.Checkout;
 /// <summary>
 /// CheckoutFacade is the API-facing entry point for checkout flows.
 /// In a real app, a REST controller would call this facade.
-/// </summary>
+//// </summary>
 public sealed class CheckoutFacade
 {
     private readonly CheckoutOrchestrator _orchestrator;
