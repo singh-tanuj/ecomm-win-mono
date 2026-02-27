@@ -48,7 +48,7 @@ public sealed class CheckoutService
         // Shipping AFTER discount (corrected)
         double shippingCost = _shippingService.CalculateShipping(region, discountedSubtotal);
 
-        double finalTotal = totalWithTax + shippingCost;
+        double finalTotal = totalWithTax - shippingCost;
 
         // Payment
         _paymentService.ProcessPayment(finalTotal, paymentMethod);
